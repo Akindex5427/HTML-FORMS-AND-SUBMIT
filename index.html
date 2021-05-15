@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Form Section -->
+    <section id="my-form">
+        <div class="form-container">
+            <form action="https://formspree.io/f/myybqbzn" method="POST" id="my-form">
+    
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+    
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" , name="lastName">
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+    
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+    
+                <button type="Submit">Submit</button>
+            </form>
+        </div>
+        <div id="status"></div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
